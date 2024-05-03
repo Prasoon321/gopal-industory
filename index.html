@@ -31,6 +31,28 @@
       html {
         scroll-behavior: smooth;
       }
+      .logospan {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-right: 2px;
+      }
+      .logop {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .logoh {
+        position: relative;
+      }
+      .logoh::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 7px;
+        left: 7px;
+        border-bottom: 5px solid black;
+        border-bottom-right-radius: 30%;
+      }
     </style>
   </head>
   <body>
@@ -86,8 +108,11 @@
                   <div class="header_upper_one_box pull-left">
                     <div class="logo">
                       <a href="#slider"
-                        ><img src="/images/companylogo.png" alt="" title=""
-                      /></a>
+                        ><h2 class="logoh">
+                          <span class="logospan">G</span
+                          ><span class="logop">SC</span>
+                        </h2></a
+                      >
                     </div>
                   </div>
                   <div class="header_upper_two_box one pull-right">
