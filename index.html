@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
     <title>Gopal Steel</title>
     <!-- Stylesheets -->
     <link href="/css/bootstrap.css" rel="stylesheet" />
@@ -20,16 +26,20 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&amp;display=swap"
       rel="stylesheet"
     />
-
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+      integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+
     <style>
       html {
         scroll-behavior: smooth;
+      }
+      .wrapper_box {
+        position: relative;
       }
       .logospan {
         font-size: 5rem;
@@ -53,10 +63,31 @@
         border-bottom: 5px solid black;
         border-bottom-right-radius: 30%;
       }
+      .whatsupp {
+        position: absolute;
+        top: 83vh;
+        right: 62px;
+        height: 60px;
+        width: 60px;
+        z-index: 12345;
+        position: fixed;
+      }
+      .whatsupp i {
+        align-items: center;
+        color: green;
+        font-size: 69px;
+      }
     </style>
   </head>
   <body>
     <div class="wrapper_box">
+      <!--Whatsupp Icon start -->
+      <div class="whatsupp">
+        <a>
+          <span class="flaticon-"> <i class="ri-whatsapp-fill"></i></span>
+        </a>
+      </div>
+      <!--Whatsupp Icon end -->
       <!-- Preloader -->
       <div class="loader-wrap">
         <div class="preloader"></div>
@@ -213,7 +244,7 @@
             <!-- Slide Item -->
             <div
               class="swiper-slide"
-              style="background-image: url(images/main-slider/1.jpg)"
+              style="background-image: url(images/golpalsteelcounterimage2.jpg)"
             >
               <div class="content-outer">
                 <div class="content-box">
@@ -228,7 +259,7 @@
                       <br />elevate the ambiance and dining experience at events
                     </div>
                     <div class="link-box">
-                      <a href="about.html" class="theme-btn btn-style-one"
+                      <a href="#about" class="theme-btn btn-style-one"
                         ><span>About Us</span></a
                       >
                     </div>
@@ -240,7 +271,7 @@
             <!-- Slide Item -->
             <div
               class="swiper-slide"
-              style="background-image: url(images/main-slider/2.jpg)"
+              style="background-image: url(images/gopalcounterimage.jpg)"
             >
               <div class="content-outer">
                 <div class="content-box">
@@ -255,7 +286,7 @@
                       unforgettable memories for you and your guests
                     </div>
                     <div class="link-box">
-                      <a href="about.html" class="theme-btn btn-style-one"
+                      <a href="#about" class="theme-btn btn-style-one"
                         ><span>About Us</span></a
                       >
                     </div>
@@ -275,7 +306,7 @@
         </div>
         <div class="banner-shape__left_1"></div>
         <div class="banner-shape__left_2"></div>
-        <div class="banner-big-title" data-parallax='{"x": 200}'>Factory</div>
+        <div class="banner-big-title" data-parallax='{"x": 200}'>GOPAL</div>
       </section>
       <!-- End Bnner Section -->
 
@@ -545,7 +576,7 @@
                 data-wow-delay="300ms"
               >
                 <div class="main-service-one-sec-img">
-                  <img src="/images/gopalcounterproduct1.jpg" alt="" />
+                  <img src="/images/gopal1.jpg" alt="" />
                 </div>
                 <div class="main-service-one-sec-content">
                   <div class="main-service-one-count">01</div>
@@ -567,7 +598,7 @@
                 data-wow-delay="600ms"
               >
                 <div class="main-service-one-sec-img">
-                  <img src="/images/gopalcounter2.jpg" alt="" />
+                  <img src="/images/gopal4.jpg" alt="" />
                 </div>
                 <div class="main-service-one-sec-content">
                   <div class="main-service-one-count">02</div>
@@ -589,7 +620,7 @@
                 data-wow-delay="900ms"
               >
                 <div class="main-service-one-sec-img">
-                  <img src="/images/gopalcounterproduct1.jpg" alt="" />
+                  <img src="/images/gopal11.jpg" alt="" />
                 </div>
                 <div class="main-service-one-sec-content">
                   <div class="main-service-one-count">03</div>
@@ -732,6 +763,7 @@
         </div>
       </section>
       <!--End Contact One Section-->
+
       <!--Start ContactinfoSection -->
       <section class="contactinfo">
         <div class="container">
@@ -778,6 +810,92 @@
         </div>
       </section>
       <!--End ContactinfoSection -->
+
+      <!--Gallery section start here-->
+      <section
+        class="main-service-one-section two"
+        id="products"
+        style="padding: 0px 0 100px; margin-top: 0"
+      >
+        <div class="container">
+          <div class="thm-section-title text-center">
+            <h4 class="sub-title-shape-left section_title-subheading">
+              GALLERY
+            </h4>
+            <h2>Our Gallery Section <br /></h2>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+              <!--Main Service One Sec Single-->
+              <div
+                class="main-service-one-sec-single wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+                <div class="main-service-one-sec-img">
+                  <img src="/images/gopal1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+              <!--Main Service One Sec Single-->
+              <div
+                class="main-service-one-sec-single wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+                <div class="main-service-one-sec-img">
+                  <img src="/images/gopal12.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+              <!--Main Service One Sec Single-->
+              <div
+                class="main-service-one-sec-single wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+                <div class="main-service-one-sec-img">
+                  <img src="/images/gopla3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+              <!--Main Service One Sec Single-->
+              <div
+                class="main-service-one-sec-single wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+                <div class="main-service-one-sec-img">
+                  <img src="/images/gopal4.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+              <!--Main Service One Sec Single-->
+              <div
+                class="main-service-one-sec-single wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+                <div class="main-service-one-sec-img">
+                  <img src="/images/gopal5.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+              <!--Main Service One Sec Single-->
+              <div
+                class="main-service-one-sec-single wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+                <div class="main-service-one-sec-img">
+                  <img src="/images/gopal6.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Gallery section end here -->
+
       <!--Start Footer Section -->
       <footer class="footer-section">
         <div class="container">

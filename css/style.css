@@ -273,12 +273,12 @@ li {
 /*** Scroll To Top style ***/
 .scroll-to-top {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 50px;
-    right: 50px;
-    line-height: 60px;
-    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 4px;
+    line-height: 40px;
+    font-size: 18px;
     z-index: 99;
     display: none;
     color: #fff;
